@@ -1,0 +1,547 @@
+img.wp-smiley, img.emoji {
+    display: inline !important;
+    border: none !important;
+    box-shadow: none !important;
+    height: 1em !important;
+    width: 1em !important;
+    margin: 0 .07em !important;
+    vertical-align: -0.1em !important;
+    background: none !important;
+    padding: 0 !important;
+}
+
+
+.primary-font,
+.tm-button,
+button,
+input,
+select,
+textarea {
+  font-family: Roboto
+}
+
+.primary-font-important {
+  font-family: Roboto !important
+}
+
+::-moz-selection {
+  color: #fff;
+  background-color: #de7801
+}
+
+::selection {
+  color: #fff;
+  background-color: #de7801
+}
+
+body {
+  font-size: 16px
+}
+
+h1,
+.h1 {
+  font-size: 39.2px
+}
+
+h2,
+.h2 {
+  font-size: 25.2px
+}
+
+h3,
+.h3 {
+  font-size: 22.4px
+}
+
+h4,
+.h4 {
+  font-size: 16.8px
+}
+
+h5,
+.h5 {
+  font-size: 14px
+}
+
+h6,
+.h6 {
+  font-size: 9.8px
+}
+
+@media (min-width: 544px) and (max-width: 1199px) {
+  body {
+    font-size: calc(16px + (16 - 16) * ((100vw - 554px) / 646))
+  }
+
+  h1,
+  .h1 {
+    font-size: calc(39.2px + (56 - 39.2) * ((100vw - 554px) / 646))
+  }
+
+  h2,
+  .h2 {
+    font-size: calc(25.2px + (36 - 25.2) * ((100vw - 554px) / 646))
+  }
+
+  h3,
+  .h3 {
+    font-size: calc(22.4px + (32 - 22.4) * ((100vw - 554px) / 646))
+  }
+
+  h4,
+  .h4 {
+    font-size: calc(16.8px + (24 - 16.8) * ((100vw - 554px) / 646))
+  }
+
+  h5,
+  .h5 {
+    font-size: calc(14px + (20 - 14) * ((100vw - 554px) / 646))
+  }
+
+  h6,
+  .h6 {
+    font-size: calc(9.8px + (14 - 9.8) * ((100vw - 554px) / 646))
+  }
+}
+
+.gradient-text-1 {
+  background: -webkit-linear-gradient(left, #222222 25%, #de7801 80%);
+  background: linear-gradient(left, #222222 25%, #de7801 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.tm-sticky-kit.is_stuck {
+  padding-top: 133px;
+}
+
+.boxed {
+  max-width: 1200px;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+  }
+}
+
+.page-content {
+  padding-top: 0;
+  padding-bottom: 0;
+  ;
+}
+
+.primary-color,
+.topbar a,
+a.liked,
+.page-popup-search .search-field,
+.page-popup-search .search-field:focus,
+.page-popup-search .form-description,
+.tm-swiper.nav-style-3 .swiper-nav-button:hover,
+.tm-swiper.nav-style-6 .swiper-nav-button:hover,
+.preview-icon-list span:before,
+.tm-button,
+.tm-button.style-text .button-icon,
+.tm-box-icon.style-1 .icon,
+.tm-box-icon.style-2 .heading,
+.tm-box-icon.style-3 .icon,
+.tm-box-icon.style-4 .icon,
+.wpcf7-text.wpcf7-text,
+.wpcf7-textarea,
+.tm-team-member .position,
+.tm-team-member .social-networks a:hover,
+.tm-testimonial.style-1 .testimonial-by-line,
+.tm-testimonial.style-2 .testimonial-by-line,
+.tm-pricing .tm-pricing-list>li>i,
+.highlight-text mark,
+.typed-text mark,
+.typed-text-2 mark,
+.typed-text .typed-cursor,
+.typed-text-2 .typed-cursor,
+.tm-twitter a:hover,
+.page-content .widget .tm-twitter a:hover,
+.tm-list--auto-numbered .tm-list__marker,
+.tm-list--manual-numbered .tm-list__marker,
+.tm-list__icon,
+.tm-info-boxes.style-metro .grid-item.skin-secondary .box-title,
+.tm-slider-icon-list .marker,
+.tm-social-networks .link:hover,
+.tm-counter.style-1 .number-wrap,
+.tm-countdown.skin-dark .number,
+.tm-countdown.skin-dark .separator,
+.tm-countdown.skin-light .number,
+.cs-countdown .number,
+.page-template-maintenance .maintenance-title,
+.tm-grid-wrapper .btn-filter:hover .filter-text,
+.tm-grid-wrapper .btn-filter.current .filter-text,
+.tm-blog .post-read-more .btn-icon,
+.tm-blog .post-read-more:hover .btn-text,
+.tm-blog.style-list .post-title a:hover,
+.tm-blog.style-list .post-categories,
+.tm-blog.style-list .post-item .post-link a:hover,
+.tm-blog.style-grid .post-title a:hover,
+.tm-blog.style-grid .post-categories,
+.tm-blog.style-grid_feature .post-title a:hover,
+.tm-blog.style-grid_feature .post-categories,
+.tm-blog.style-grid_feature .post-link a:hover,
+.tm-blog.style-grid_classic .post-title a:hover,
+.tm-blog.style-grid_classic .post-categories,
+.tm-blog.style-grid_classic .post-link a:hover,
+.tm-blog.style-grid_simple .post-title a:hover,
+.tm-blog.style-grid_simple .post-categories,
+.tm-blog.style-grid_classic .comment-icon,
+.tm-blog.style-carousel .post-title a:hover,
+.tm-blog.style-carousel .post-categories,
+.tm-blog.style-magazine .post-title a:hover,
+.tm-blog.style-magazine .post-categories,
+.tm-blog.style-metro .post-title a:hover,
+.tm-blog.style-metro .post-categories,
+.tm-blog.style-grid_left_image .post-title a:hover,
+.tm-blog.style-grid_left_image .post-categories,
+.tm-blog.style-grid_flip_box .front .post-categories,
+.tm-blog.style-grid_modern .post-title a:hover,
+.tm-blog.style-grid_modern .post-categories,
+.tm-portfolio [data-overlay-animation='faded'] .post-overlay-title a:hover,
+.tm-portfolio [data-overlay-animation='faded'] .post-overlay-categories,
+.tm-portfolio [data-overlay-animation='modern'] .post-overlay-title a:hover,
+.tm-portfolio [data-overlay-animation='modern'] .post-overlay-categories,
+.tm-portfolio [data-overlay-animation='zoom'] .post-overlay-title a:hover,
+.tm-portfolio [data-overlay-animation='zoom'] .post-overlay-categories,
+.tm-portfolio [data-overlay-animation='zoom2'] .post-overlay-title a:hover,
+.tm-portfolio [data-overlay-animation='zoom2'] .post-overlay-categories,
+.tm-portfolio.style-full-wide-slider .post-overlay-categories,
+.tm-portfolio.style-full-wide-slider .post-overlay-title a:hover,
+.page-template-portfolio-fullscreen-slider .portfolio-categories,
+.page-template-portfolio-fullscreen-slider .portfolio-title a:hover,
+.page-template-portfolio-fullscreen-split-slider .portfolio-categories,
+.page-template-portfolio-fullscreen-split-slider .portfolio-title a:hover,
+.page-template-portfolio-fullscreen-split-slider .tm-social-network a:hover,
+.page-template-portfolio-fullscreen-split-slider-2 .portfolio-categories,
+.page-template-portfolio-fullscreen-split-slider-2 .portfolio-title a:hover,
+.page-template-portfolio-fullscreen-slider-center .portfolio-categories,
+.page-template-portfolio-fullscreen-slider-center .portfolio-title a:hover,
+.tm-accordion .accordion-section.active .accordion-title,
+.tm-accordion .accordion-title:hover,
+.tm-pricing.style-3 .price,
+.tm-twitter .tweet:before,
+.page-template-one-page-scroll[data-row-skin='dark'] #fp-nav ul li .fp-tooltip,
+.page-content .widget a:hover,
+.single-portfolio .portfolio-categories,
+.single-portfolio .post-share a:hover,
+.single-portfolio .portfolio-link a:hover,
+.single-portfolio .related-post-item .post-overlay-categories,
+.single-portfolio .related-portfolio-wrap .post-overlay-title a:hover,
+.single-post .post-categories,
+.single-post .page-main-content .post-tags a:hover,
+.single-post .related-posts .related-post-title a:hover,
+.single-post .blog-header-image .insight_core_breadcrumb a:hover,
+.search-results .page-main-content .search-form .search-submit:hover,
+.search-no-results .page-main-content .search-form .search-submit:hover,
+.gmap-marker-content,
+.vc_tta-color-primary.vc_tta-style-outline .vc_tta-panel .vc_tta-panel-title>a,
+.widget_search .search-submit:hover i,
+.widget_product_search .search-submit:hover i,
+.comment-list .comment-datetime:before {
+  color: #de7801
+}
+
+.primary-color-important,
+.primary-color-hover-important:hover,
+.widget_categories a:hover,
+.widget_categories .current-cat-ancestor>a,
+.widget_categories .current-cat-parent>a,
+.widget_categories .current-cat>a {
+  color: #de7801 !important;
+}
+
+.primary-background-color,
+.lg-progress-bar .lg-progress,
+.tm-swiper.nav-style-4 .swiper-nav-button,
+.tm-button.style-flat.tm-button-primary,
+.tm-button.style-flat.tm-button-secondary:hover,
+.tm-button.style-outline.tm-button-primary:hover,
+.tm-team-member.style-1 .info-footer:after,
+.tm-social-networks.style-icons-with-border .link:hover,
+.tm-gradation .count,
+.tm-gradation .count-wrap:before,
+.tm-gradation .count-wrap:after,
+.tm-popup-video.style-poster .video-play,
+.tm-popup-video.style-poster-2 .video-play,
+.tm-popup-video.style-button .video-play,
+.tm-popup-video.style-button-4 .video-play,
+.tm-pricing.style-3.tm-pricing-featured .inner,
+.tm-timeline ul li:after,
+.tm-box-icon.style-6:hover .content-wrap,
+.tm-box-icon.style-7:hover .content-wrap,
+.tm-info-boxes.style-metro .grid-item.skin-primary,
+.tm-info-boxes.style-grid .box-info-wrapper:hover .box-info,
+.tm-blog.style-grid_flip_box .back .content-wrap:before,
+.tm-swiper.pagination-style-3 .swiper-pagination-bullet.swiper-pagination-bullet-active:before,
+.tm-contact-form-7.skin-light .wpcf7-submit:hover,
+.tm-mailchimp-form.style-3 button:hover,
+.tm-accordion .accordion-title:after,
+.tm-grid-wrapper .btn-filter:hover .filter-text:after,
+.tm-grid-wrapper .btn-filter.current .filter-text:after,
+.single-portfolio .swiper-nav-button:hover,
+.scrollup,
+.maintenance-progress-bar,
+.maintenance-progress:before,
+.page-loading .sk-child,
+.page-preloader .object,
+.portfolio-details-gallery .gallery-item .overlay,
+.wpb-js-composer .vc_tta.vc_general.vc_tta-style-moody-04 .vc_active .vc_tta-icon,
+.vc_tta-color-primary.vc_tta-style-classic .vc_tta-tab>a,
+.vc_tta-color-primary.vc_tta-style-classic .vc_tta-panel .vc_tta-panel-heading,
+.vc_tta-tabs.vc_tta-color-primary.vc_tta-style-modern .vc_tta-tab>a,
+.vc_tta-color-primary.vc_tta-style-modern .vc_tta-panel .vc_tta-panel-heading,
+.vc_tta-color-primary.vc_tta-style-flat .vc_tta-panel .vc_tta-panel-body,
+.vc_tta-color-primary.vc_tta-style-flat .vc_tta-panel .vc_tta-panel-heading,
+.vc_tta-color-primary.vc_tta-style-flat .vc_tta-tab>a,
+.vc_tta-color-primary.vc_tta-style-outline .vc_tta-panel:not(.vc_active) .vc_tta-panel-heading:focus,
+.vc_tta-color-primary.vc_tta-style-outline .vc_tta-panel:not(.vc_active) .vc_tta-panel-heading:hover,
+.vc_tta-color-primary.vc_tta-style-outline .vc_tta-tab:not(.vc_active)>a:focus,
+.vc_tta-color-primary.vc_tta-style-outline .vc_tta-tab:not(.vc_active)>a:hover {
+  background-color: #de7801;
+}
+
+.primary-background-color-important,
+.primary-background-color-hover-important:hover,
+.mejs-controls .mejs-time-rail .mejs-time-current {
+  background-color: #de7801 !important;
+}
+
+.primary-border-color,
+.page-template-portfolio-fullscreen-split-slider #multiscroll-nav .active span,
+.lg-outer .lg-thumb-item.active,
+.lg-outer .lg-thumb-item:hover,
+.tm-button.style-outline.tm-button-primary,
+.tm-contact-form-7.skin-light .wpcf7-submit,
+.tm-social-networks.style-icons-with-border .link:hover,
+.wpb-js-composer .vc_tta.vc_general.vc_tta-style-moody-04 .vc_active .vc_tta-icon,
+.vc_tta-color-primary.vc_tta-style-classic .vc_tta-panel .vc_tta-panel-heading,
+.vc_tta-color-primary.vc_tta-style-outline .vc_tta-panel .vc_tta-panel-heading,
+.vc_tta-color-primary.vc_tta-style-outline .vc_tta-controls-icon::after,
+.vc_tta-color-primary.vc_tta-style-outline .vc_tta-controls-icon::before,
+.vc_tta-color-primary.vc_tta-style-outline .vc_tta-panel .vc_tta-panel-body,
+.vc_tta-color-primary.vc_tta-style-outline .vc_tta-panel .vc_tta-panel-body::after,
+.vc_tta-color-primary.vc_tta-style-outline .vc_tta-panel .vc_tta-panel-body::before,
+.vc_tta-tabs.vc_tta-color-primary.vc_tta-style-outline .vc_tta-tab>a,
+.tagcloud a:hover {
+  border-color: #de7801;
+}
+
+.primary-border-color-important,
+.primary-border-color-hover-important:hover {
+  border-color: #de7801 !important;
+}
+
+.tm-grid-wrapper .filter-counter:before {
+  border-top-color: #de7801;
+}
+
+.page-popup-search .search-field:-webkit-autofill {
+  -webkit-text-fill-color: #de7801;
+}
+
+.popup-search-opened .page-popup-search .search-field,
+.tm-box-icon.style-7 .content-wrap {
+  border-bottom-color: #de7801;
+}
+
+.tm-blockquote.style-3.skin-light path,
+.tm-testimonial.style-6 svg {
+  fill: #de7801;
+}
+
+.tm-box-icon.style-6 .tm-svg *,
+.tm-box-icon.style-7 .tm-svg * {
+  stroke: #de7801;
+}
+
+.tm-info-boxes.style-grid .box-info-wrapper:hover .box-info,
+.tm-blog.style-grid_flip_box .tm-rotate-box .back,
+.tm-box-icon.style-6:hover .content-wrap {
+  box-shadow: -6px 12px 20px rgba(222, 120, 1, 0.17);
+}
+
+.secondary-color,
+.tm-button.style-outline.tm-button-secondary,
+.tm-button.style-text.tm-button-secondary .button-icon,
+.tm-button.style-text.tm-button-secondary:hover,
+.tm-drop-cap.style-1 .drop-cap,
+.tm-pricing.style-1 .price,
+.tm-pricing.style-1 .period,
+.tm-pricing.style-2 .price,
+.tm-pricing.style-2 .period,
+.tm-twitter a,
+.page-content .widget .tm-twitter a,
+.tm-info-boxes.style-metro .grid-item.skin-primary .box-title,
+.tm-blog.style-list .post-categories a:hover,
+.tm-blog.style-list .post-item .post-link a,
+.tm-blog.style-list .post-categories a:hover,
+.tm-blog.style-grid_feature .post-link a,
+.tm-blog.style-grid_feature .post-categories a:hover,
+.tm-blog.style-grid_classic .post-categories a:hover,
+.tm-blog.style-grid_simple .post-categories a:hover,
+.tm-blog.style-magazine .post-categories a:hover,
+.tm-blog.style-grid_left_image .post-categories a:hover,
+.tm-blog.style-grid_modern .post-categories a:hover,
+.tm-portfolio [data-overlay-animation='zoom'] .post-overlay-categories a:hover,
+.tm-portfolio [data-overlay-animation='zoom2'] .post-overlay-categories a:hover,
+.tm-portfolio.style-full-wide-slider .post-overlay-categories a:hover,
+.skin-secondary .wpcf7-text.wpcf7-text,
+.skin-secondary .wpcf7-textarea,
+.tm-menu .menu-price,
+.wpb-js-composer .vc_tta-style-moody-01 .vc_tta-tab,
+.wpb-js-composer .vc_tta-style-moody-03 .vc_tta-tab,
+.page-content .tm-custom-menu.style-1 .menu a:hover,
+.page-template-portfolio-fullscreen-split-slider-2 .portfolio-categories a:hover,
+.single-post .post-categories a:hover,
+.single-post .page-main-content .post-tags span,
+.single-portfolio .portfolio-link a,
+.single-portfolio .portfolio-categories a:hover,
+.tm-view-demo-icon .item-icon,
+.menu--primary .menu-item-feature,
+.gmap-marker-title,
+.page-links>a,
+.comment-nav-links li a,
+.comment-nav-links li span,
+.page-pagination li a,
+.page-pagination li span {
+  color: #222222
+}
+
+.secondary-color-important,
+.secondary-color-hover-important:hover {
+  color: #222222 !important;
+}
+
+.secondary-background-color,
+.page-loading,
+.page-popup-search,
+.page-close-mobile-menu i,
+.page-close-mobile-menu i:before,
+.page-close-mobile-menu i:after,
+.animated-dot .middle-dot,
+.animated-dot div[class*='signal'],
+.tm-gallery .overlay,
+.tm-grid-wrapper .filter-counter,
+.tm-blog.style-list .post-quote,
+.tm-blog.style-grid .post-overlay,
+.tm-blog.style-carousel .post-overlay,
+.tm-blog.style-grid_feature .post-quote,
+.tm-blog.style-grid_classic .format-quote,
+.tm-blog.style-magazine .post-thumbnail,
+.tm-blog.style-metro .post-thumbnail,
+.tm-drop-cap.style-2 .drop-cap,
+.tm-info-boxes.style-metro .grid-item.skin-secondary,
+.tm-button.style-flat.tm-button-primary:hover,
+.tm-button.style-flat.tm-button-secondary,
+.tm-button.style-outline.tm-button-secondary:hover,
+.tm-blockquote.skin-dark,
+.tm-view-demo .overlay-content,
+.tm-mailchimp-form.style-3 button,
+.tm-swiper.nav-style-4 .swiper-nav-button:hover,
+.wpb-js-composer .vc_tta-style-moody-01 .vc_tta-tab.vc_active>a,
+.wpb-js-composer .vc_tta-style-moody-03 .vc_tta-tab.vc_active>a,
+.page-template-fullscreen-split-feature .tm-social-network a span:after,
+.single-post .post-feature .post-link,
+.single-post .post-feature .post-quote,
+.page-links>span,
+.page-links>a:hover,
+.page-links>a:focus,
+.comment-nav-links li a:hover,
+.comment-nav-links li a:focus,
+.comment-nav-links li .current,
+.page-pagination li a:hover,
+.page-pagination li a:focus,
+.page-pagination li .current {
+  background-color: #222222;
+}
+
+.secondary-background-color-important,
+.secondary-background-color-hover-important:hover {
+  background-color: #222222 !important;
+}
+
+.secondary-border-color,
+.tm-button.style-outline.tm-button-secondary,
+.tm-button.style-text span,
+.tm-blog.style-grid .post-item:hover,
+.tm-blog.style-carousel .post-item:hover,
+.page-links>span,
+.page-links>a:hover,
+.page-links>a:focus,
+.comment-nav-links li a:hover,
+.comment-nav-links li a:focus,
+.comment-nav-links li .current,
+.page-pagination li a:hover,
+.page-pagination li a:focus,
+.page-pagination li .current {
+  border-color: #222222;
+}
+
+.secondary-border-color-important,
+.secondary-border-color-hover-important:hover,
+#fp-nav ul li a.active span,
+.fp-slidesNav ul li a.active span {
+  border-color: #222222 !important;
+}
+
+.wpb-js-composer .vc_tta-style-moody-01 .vc_tta-tab.vc_active:after {
+  border-top-color: #222222;
+}
+
+.wpb-js-composer .vc_tta-style-moody-03 .vc_tta-tab.vc_active:after {
+  border-left-color: #222222;
+}
+
+.wpb-js-composer .vc_tta-style-moody-02 .vc_tta-tab.vc_active,
+.header04 .navigation .menu__container>.current-menu-item>a>.menu-item-title,
+.header04 .navigation .menu__container>li>a:hover>.menu-item-title {
+  border-bottom-color: #222222;
+}
+
+.tm-blockquote.skin-light path {
+  fill: #222222;
+}
+
+.page-footer .widgettitle {
+  color: #ffffff;
+}
+
+.page-footer {
+  color: #999999;
+}
+
+.page-footer a,
+.page-footer .widget_recent_entries li a,
+.page-footer .widget_recent_comments li a,
+.page-footer .widget_archive li a,
+.page-footer .widget_categories li a,
+.page-footer .widget_meta li a,
+.page-footer .widget_product_categories li a,
+.page-footer .widget_rss li a,
+.page-footer .widget_pages li a,
+.page-footer .widget_nav_menu li a,
+.page-footer .insight-core-bmw li a {
+  color: #999999;
+}
+
+.page-footer a:hover,
+.page-footer .widget_recent_entries li a:hover,
+.page-footer .widget_recent_comments li a:hover,
+.page-footer .widget_archive li a:hover,
+.page-footer .widget_categories li a:hover,
+.page-footer .widget_meta li a:hover,
+.page-footer .widget_product_categories li a:hover,
+.page-footer .widget_rss li a:hover,
+.page-footer .widget_pages li a:hover,
+.page-footer .widget_nav_menu li a:hover,
+.page-footer .insight-core-bmw li a:hover {
+  color: #9212a6;
+}
+
+.lg-backdrop {
+  background-color: #000 !important;
+}
