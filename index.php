@@ -2498,10 +2498,10 @@
                                     <div class="branding">
                                         <div class="branding__logo">
                                             <a href="./" rel="home">
-                                                <img src="./images/GRT2.png" alt="Novate Tracker" class="main-logo">
-                                                <img src="./images/GRT2.png" alt="Novate Tracker" class="light-logo">
-                                                <img src="./images/GRT2.png" alt="Novate Tracker" class="dark-logo">
-                                                <img src="./images/GRT2.png" alt="Novate Tracker" class="sticky-logo">
+                                                <img src="./images/GRT2.png" alt="EcoCare Waste Initiative" class="main-logo">
+                                                <img src="./images/GRT2.png" alt="EcoCare Waste Initiative" class="light-logo">
+                                                <img src="./images/GRT2.png" alt="EcoCare Waste Initiative" class="dark-logo">
+                                                <img src="./images/GRT2.png" alt="EcoCare Waste Initiative" class="sticky-logo">
                                             </a>
                                         </div>
                                     </div>
@@ -2522,6 +2522,11 @@
                                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6340">
                                                         <a href="./services.html"><span
                                                                 class="menu-item-title">Services</span></a>
+                                                    </li>
+                                                    <li id="menu-item-6340"
+                                                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6340">
+                                                        <a href="./newsletter.html"><span
+                                                                class="menu-item-title">Join Our Community</span></a>
                                                     </li>
                                                     <!-- <li id="menu-item-6340"
                                                         class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6340">
@@ -3421,6 +3426,11 @@
                                                                 <a href="./services.html"><span
                                                                         class="menu-item-title">Services</span></a>
                                                             </li>
+                                                            <li
+                                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6340">
+                                                                <a href="./newsletter.html"><span
+                                                                        class="menu-item-title">Join Our Community</span></a>
+                                                            </li>
                                                             <!-- <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6505"><a
                                                             href="./gallery.html"><span
                                                             class="menu-item-title">Gallery</span></a></li>
@@ -3538,7 +3548,7 @@
         <div class="page-mobile-menu-header">
             <div class="page-mobile-menu-logo">
                 <a href="./" rel="home">
-                    <img src="./images/GRT2.png" alt="Novate Tracker" />
+                    <img src="./images/GRT2.png" alt="EcoCare Waste Initiative" />
                 </a>
             </div>
             <div id="page-close-mobile-menu" class="page-close-mobile-menu">
